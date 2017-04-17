@@ -1774,7 +1774,7 @@ public interface OptionConstants {
   /** Whether to display the "Auto Import" dialog when an undefined class
     * is encountered in the Interactions Pane. */
   public static final BooleanOption DIALOG_AUTOIMPORT_ENABLED =
-    new BooleanOption("dialog.autoimport.enabled", Boolean.TRUE);
+    new BooleanOption("dialog.autoimport.enabled", Boolean.FALSE);
   
   /** Delay for following files. */
   public static final NonNegativeIntegerOption FOLLOW_FILE_DELAY =
